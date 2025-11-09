@@ -1,0 +1,17 @@
+##### This file is managed automatically and will be overridden. Do not edit #####
+
+# Admin default ownership rules
+.dockerignore @abxy-one/abxy-infrastructure
+.github/*.y*ml @abxy-one/abxy-infrastructure
+.github/workflows @abxy-one/abxy-infrastructure
+docker*entrypoint*sh @abxy-one/abxy-infrastructure
+Docker* @abxy-one/abxy-infrastructure
+
+
+# Default ownership rules
+.github/dependabot.y*ml @abxy-one/abxy-engineering
+
+# Repo specific ownership rules
+* @abxy-one/abxy-infrastructure
+.github/dependabot.y*ml @abxy-one/abxy-devops
+src/frontend/* @abxy-one/abxy-frontend @abxy-one/abxy-infrastructure
